@@ -1,0 +1,161 @@
+:root {
+  --preto: #000;
+  --verde: #1db954;
+  --branco: #fff;
+  --azul: #2a45ab;
+  --cinza: #919496;
+  --cinza-escuro: #222326;
+  --fonte: "Circular Spotify Tx T Black";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--fonte);
+  text-decoration: none;
+  list-style: none;
+}
+
+.menu-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--preto);
+  height: 12vh;
+}
+
+.logo-spotify {
+  height: 40px;
+}
+
+.menu-nav ul {
+  display: flex;
+}
+
+.menu-nav .item-list {
+  margin-left: 32px;
+}
+
+.item-list,
+.item-list a {
+  color: var(--branco);
+}
+
+.container {
+  height: 88vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--azul);
+}
+
+.principal {
+  color: var(--verde);
+  text-align: center;
+  max-width: 800px;
+  font-size: 124px;
+}
+
+.subfrase {
+  color: var(--verde);
+  text-align: center;
+  margin-top: 25px;
+}
+
+.btn-download {
+  margin-top: 25px;
+  border-radius: 50px;
+  border: none;
+  padding: 15px 50px;
+  background-color: var(--verde);
+}
+
+.btn-download span {
+  color: var(--azul);
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.footer {
+  height: 83vh;
+  background-color: var(--preto);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content-box {
+  width: 83vw;
+  height: 57vh;
+  display: flex;
+}
+
+.column {
+  margin: 15px 50px;
+}
+
+.name-column {
+  color: var(--cinza);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 12px;
+}
+
+.column .item-list {
+  padding-top: 25px;
+  font-size: 14px;
+}
+
+.social-media {
+  margin-left: 150px;
+}
+
+.social-items {
+  display: flex;
+}
+
+.medias {
+  padding-left: 15px;
+}
+
+.btn-social {
+  border-radius: 100%;
+  padding: 10px;
+  background-color: var(--cinza-escuro);
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-social {
+  height: 25px;
+}
+
+.bottom-list {
+  width: 83vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom-links {
+  display: flex;
+}
+
+.item-bottom {
+  margin-right: 15px;
+}
+
+.item-bottom a {
+  color: var(--cinza);
+  font-size: 12px;
+}
+
+.right-content {
+  color: var(--cinza);
+  font-size: 12px;
+  text-align: right;
+}
