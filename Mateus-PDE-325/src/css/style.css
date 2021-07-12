@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Circular Spotify Tx T Black';
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.main-header-content {
+    width: 100%;
+    background-color: black;
+}
+
+.header-content {
+    padding: 0 60px;
+    max-width: 80%;
+    margin: auto;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+}
+
+
+.logo {
+    width: 132px;
+    height: 41px;
+}
+
+nav {
+    vertical-align: middle;
+}
+
+nav ul {
+    display: flex;
+    vertical-align: middle;
+    color: white;
+}
+
+.itens-link {
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0 20px;
+    padding: 30px 0;
+}
+
+.itens-link:hover {
+    color: #1ed760;
+}
+
+.itens a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.main-content {
+    min-height: 120vh;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #1ed760;
+    background-color: rgb(41, 65, 171);
+    background-image: url("/src/icons/bursts-tablet.svg");
+    background-size: 110%;
+    background-position: right 20% center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.main-content h1 {
+    font-size: 9rem;
+    max-width: 50%;
+}
+
+.main-content p {
+    font-size: 18px;
+    margin: 30px 0;
+    line-height: 24px;
+}
+
+#download-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 216px;
+    height: 50px;
+    color: rgb(41, 65, 171);
+    background-color: #1ed760;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+#download-btn:hover {
+    width: 220px;
+    height: 55px;
+    cursor: pointer;
+}
+
+footer {
+    min-height: 400px;
+    background-color: black;
+    padding: 40px 0;
+}
+
+.footer-group {
+    width: 80%;
+    margin: auto;
+}
+
+.footer-main-content {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+    color: white;
+}
+
+.up-footer-menu {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.up-footer-menu-itens {
+    padding: 20px;
+}
+
+.footer-menu-title {
+    color: grey;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.up-footer-menu-itens a {
+    text-decoration: none;
+    color: white;
+    padding: 12px 0;
+}
+
+.up-footer-menu-itens a:hover {
+    color: #1ed760;
+}
+
+.social-medias ul li {
+    display: inline-block;
+    margin: 6px 10px 0 0;
+}
+
+.link-social-medias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222326;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.icons-img {
+    width: 25px;
+    height: 25px;
+}
+
+.icons-img:hover {
+    filter: invert(46%) sepia(56%) saturate(646%) hue-rotate(86deg) brightness(92%) contrast(94%);;
+}
+
+.list-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-down-content  {
+    color: grey;
+}
+
+.down-footer-menu {
+    display: flex;
+    list-style-type: none;
+    font-size: 11px;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 20px;
+}
+
+.itens-down-content {
+    display: flex;
+    color: grey;
+}
+
+.links-down-footer a {
+    color: grey;
+    text-decoration: none;
+    padding: 15px 0;
+}
+
+.links-down-footer a:hover {
+    color: #1ed760;
+}
+
+.right-description {
+    margin-left: 30%;
+    justify-content: right;
+}
+
+.credits {
+    text-transform: uppercase;
+}
