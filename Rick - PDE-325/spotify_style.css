@@ -1,0 +1,173 @@
+:root {
+    --preto: #000;
+    --verde: #1db954;
+    --branco: #fff;
+    --azul: #2a45ab;
+    --cinza: #919496;
+    --cinza-escuro: #222326;
+    --fonte: "Circular Spotify Tx T Black";
+}
+
+* {
+    text-decoration: none;
+    font-family: var(--fonte);
+}
+
+
+.menu {
+    background-color: var(--preto);
+    height: 70px;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+}
+
+.menu a, .menu span {
+    padding-left: 12px;
+}
+
+.logo {
+    height: 35px;
+}
+
+.menu .item {
+    margin-left: 25px;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.item {
+    color: var(--branco);
+}
+
+.item a {
+    color: var(--branco)
+}
+
+
+.principal {
+    background-color: var(--azul);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    height: 600px;
+}
+
+.texto_central {
+    font-size: 130px;
+    color: var(--verde);
+    text-align: center;
+    max-width: 712px;
+}
+
+.textinho {
+    color: var(--verde);
+    text-align: center;
+    margin-top: 27px;
+}
+
+.botao_download {
+    background-color: var(--verde);
+    padding: 14px 41px;
+    border-radius: 85px;
+    margin-top: 40px;
+    border: none;
+}
+
+.botao_download span {
+    color: var(--azul);
+    font-size: 17px;
+}
+
+
+
+.rodape {
+    background-color: var(--preto);
+    height: 375px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 0 auto;
+    padding-bottom: 0px;
+}
+
+.informacoes {
+    display: flex;
+    height: 200px;
+    width: 0 auto;
+}
+
+.coluna {
+    margin: 5px 50px;
+}
+
+.nome_coluna {
+    color: var(--cinza);
+    font-size: 13.55px;
+    letter-spacing: 0.5px;
+}
+
+.coluna .item_opcao_coluna {
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+.item_opcao_coluna a {
+    color: #dddddd;
+}
+
+.redes_sociais {
+    margin-left: 40px;
+}
+
+.icones_redes_sociais {
+    display: flex;
+}
+
+.icones {
+    padding-left: 10px;
+}
+
+.logo_rede_social {
+    height: 25px;
+}
+
+.botao_rede {
+    background-color: var(--cinza-escuro);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 80px;
+    border: none;
+    padding: 8px;
+}
+
+.fundo {
+    width: 83hv;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+
+.lista_fundo {
+    display: flex;
+}
+
+.item_lista_fundo a {
+    color: #a3a3a3;
+    font-size: 15px;
+}
+
+.item_lista_fundo {
+    margin-right: 50px;
+}
+
+.direitos_autorais {
+    color: #a3a3a3;
+    font-size: 10px;
+    text-align: right;
+}
