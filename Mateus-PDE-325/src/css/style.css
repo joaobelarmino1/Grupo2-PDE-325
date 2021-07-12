@@ -36,7 +36,7 @@ nav {
 
 nav ul {
     display: flex;
-    vertical-align: middle;
+    align-items: center;
     color: white;
 }
 
@@ -52,11 +52,13 @@ nav ul {
     color: #1ed760;
 }
 
-.itens a {
-    text-decoration: none;
-    color: white;
+.separator {
+    margin: 0 15px;
+    list-style-type: none;
+    width: 1px;
+    height: 18px;
+    background-color: white;
 }
-
 
 .main-content {
     min-height: 120vh;
